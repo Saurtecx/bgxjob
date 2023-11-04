@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY requirements.txt /app
 COPY app.py /app
+COPY jobs.csv /app
 
 RUN pip install -r requirements.txt
 
